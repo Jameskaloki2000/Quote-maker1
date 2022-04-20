@@ -1,1 +1,18 @@
-<p>quote-details works!</p>
+<div class="row">
+  <div class="col-md-5">
+    <p class="text-center txt-bold">Author: {{ quote.author }}</p>
+  </div>
+  <div class="col-md-5">
+    <p class="text-center txt-bold">Name: {{ quote.name }}</p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-5">
+    <button (click)="quoteDelete(true)" class="btn btn-danger btn-sm">
+      Delete Quote
+    </button>
+  </div>
+  <div class="col-md-5 blue-text txt-bold text-center">
+    posted: &nbsp; {{ quote.time | date | time }}
+  </div>
+</div>
