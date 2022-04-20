@@ -1,4 +1,15 @@
-# Quotes
+# Quote
+A web app to generate quotes
+#Description
+1).Upload A quote
+Upload a quote by filling the respective from inputs.
+The quotes will be displayed on the card labeled Quotes.
+
+2).Vote a quote
+In the card hosting the quote there are two buttons ,one with a thumps up to upvote and another one with a thumbs down to down vote. Click on either for the respective voting and the number of votes will increase per click
+
+3).Delete Quote
+Press the button on the respective quote that says quote details.A delete quote button will drop down along other quote details.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
 
